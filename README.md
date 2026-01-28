@@ -21,3 +21,5 @@ Evalúa agentes financieros (purple/participant) con el dataset `public.csv` y s
 
 ## Nota importante
 Si ves `403` al hacer `docker pull`, revisa que las imágenes referenciadas (GHCR) sean **públicas**.
+
+<!-- webhook-trigger: push -->
