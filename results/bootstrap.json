@@ -1,0 +1,28 @@
+{
+  "participants": {
+    "participant": "00000000-0000-0000-0000-000000000000"
+  },
+  "results": [
+    {
+      "winner": "participant",
+      "participants": {
+        "participant": {
+          "role": "participant",
+          "url": "",
+          "summary": {
+            "total": 50,
+            "passed": 0,
+            "average_score": 0.0,
+            "citation_valid": 0,
+            "errors": 1,
+            "duration_seconds": 0.0
+          },
+          "results": []
+        }
+      },
+      "dataset": "public.csv",
+      "max_questions": 50,
+      "seed": 42
+    }
+  ]
+}
