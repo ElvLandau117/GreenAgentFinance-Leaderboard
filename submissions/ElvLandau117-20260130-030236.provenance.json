@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/elvlandau117/greenagentfinance@sha256:7208b7de6aae3be0f403ce5778fa33755376d32067ecbae6b640531aa2db1e82",
+    "participant": "ghcr.io/elvlandau117/purple-agent-finance@sha256:2bb15c9cbf056931ec52cba5b2a1381aa303f0f53e9d31aec3f25198fcc7c96a",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-30T03:02:36Z",
+  "github_actions": {
+    "run_url": "https://github.com/ElvLandau117/GreenAgentFinance-Leaderboard/actions/runs/21495422914",
+    "run_logs_url": "https://api.github.com/repos/ElvLandau117/GreenAgentFinance-Leaderboard/actions/runs/21495422914/logs",
+    "ref": "refs/heads/submission-baseline-purple",
+    "sha": "07b2921f0dba1b23f512786d15c40a1a2d778327",
+    "repository_url": "https://github.com/ElvLandau117/GreenAgentFinance-Leaderboard",
+    "workflow_ref": "ElvLandau117/GreenAgentFinance-Leaderboard/.github/workflows/run-scenario.yml@refs/heads/submission-baseline-purple",
+    "workflow_sha": "07b2921f0dba1b23f512786d15c40a1a2d778327"
+  }
+}
