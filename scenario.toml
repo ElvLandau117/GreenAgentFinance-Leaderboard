@@ -2,14 +2,37 @@
 agentbeats_id = "019c066d-d16f-7bf0-9e30-4a3eac7100fc"
 env = { LOG_LEVEL = "INFO" }
 
+# Example: Single participant (default configuration)
+# [[participants]]
+# agentbeats_id = "YOUR_PURPLE_AGENT_ID"
+# name = "participant"
+# env = {}
+
+# Multi-model comparison via OpenRouter
+# All participants use the same purple agent image but different models
+# Set OPENROUTER_API_KEY in your environment or CI secrets
+
+# GPT-4o via OpenRouter
 [[participants]]
-agentbeats_id = ""
-name = "participant"
-env = {}
+agentbeats_id = "YOUR_PURPLE_AGENT_ID"
+name = "gpt-4o"
+env = { FINANCE_MODEL = "openrouter/openai/gpt-4o", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
+
+# Claude Sonnet via OpenRouter
+[[participants]]
+agentbeats_id = "YOUR_PURPLE_AGENT_ID"
+name = "claude-sonnet"
+env = { FINANCE_MODEL = "openrouter/anthropic/claude-sonnet-4", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
+
+# Gemini 2.0 Flash via OpenRouter
+[[participants]]
+agentbeats_id = "YOUR_PURPLE_AGENT_ID"
+name = "gemini-flash"
+env = { FINANCE_MODEL = "openrouter/google/gemini-2.0-flash-001", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
 
 [config]
 seed = 42
 maxQuestions = 50
 timeoutSeconds = 120
-participantRole = "participant"
-allowNetwork = false
+participantRole = "gpt-4o"  # Primary participant for winner determination
+allowNetwork = true  # Required for OpenRouter API calls
