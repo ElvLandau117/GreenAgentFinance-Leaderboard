@@ -5,7 +5,7 @@ env = { LOG_LEVEL = "INFO" }
 [[participants]]
 agentbeats_id = "019c0ba7-7f0b-76a1-8d60-b59cb19172cf"
 name = "participant"
-env = {}
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", FINANCE_TOOLS = "" }
 
 [config]
 seed = 42
