@@ -1,7 +1,6 @@
 name: Run Scenario
 
 on:
-  workflow_dispatch:  # Permite ejecución manual desde GitHub UI
   push:
     paths:
       - 'scenario.toml'
