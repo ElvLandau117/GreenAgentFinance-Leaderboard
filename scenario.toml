@@ -16,19 +16,19 @@ env = { LOG_LEVEL = "INFO" }
 [[participants]]
 agentbeats_id = "019c0ba7-7f0b-76a1-8d60-b59cb19172cf"
 name = "gpt-4o"
-env = { FINANCE_MODEL = "openrouter/openai/gpt-4o", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
+env = { FINANCE_MODEL = "openrouter/openai/gpt-4o", OPENROUTER_API_KEY = "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" }
 
 # Claude Sonnet via OpenRouter
 [[participants]]
 agentbeats_id = "019c0ba7-7f0b-76a1-8d60-b59cb19172cf"
 name = "claude-sonnet"
-env = { FINANCE_MODEL = "openrouter/anthropic/claude-sonnet-4", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
+env = { FINANCE_MODEL = "openrouter/anthropic/claude-sonnet-4", OPENROUTER_API_KEY = "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" }
 
 # Gemini 2.0 Flash via OpenRouter
 [[participants]]
 agentbeats_id = "019c0ba7-7f0b-76a1-8d60-b59cb19172cf"
 name = "gemini-flash"
-env = { FINANCE_MODEL = "openrouter/google/gemini-2.0-flash-001", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
+env = { FINANCE_MODEL = "openrouter/google/gemini-2.0-flash-001", OPENROUTER_API_KEY = "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" }
 
 # OPENAI API KEY
 [[participants]]
