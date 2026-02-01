@@ -30,6 +30,12 @@ agentbeats_id = "019c0ba7-7f0b-76a1-8d60-b59cb19172cf"
 name = "gemini-flash"
 env = { FINANCE_MODEL = "openrouter/google/gemini-2.0-flash-001", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
 
+# OPENAI API KEY
+[[participants]]
+     agentbeats_id = "019c0ba7-7f0b-76a1-8d60-b59cb19172cf"
+     name = "participant"
+     env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", FINANCE_TOOLS = "" }
+
 [config]
 seed = 42
 maxQuestions = 50
