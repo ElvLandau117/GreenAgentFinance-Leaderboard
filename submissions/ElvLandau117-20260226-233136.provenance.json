@@ -1,0 +1,18 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/elvlandau117/greenagentfinance@sha256:4cdcb897345c0e239be7792be40b18d3c236ca61a8cb1edbb088341af09f53c5",
+    "gpt-4o": "ghcr.io/elvlandau117/purple-agent-finance@sha256:7c693b5c560a03470e661093f26fd8866042ac0c9d048f9feabee78455a84a94",
+    "claude-sonnet": "ghcr.io/elvlandau117/purple-agent-finance@sha256:7c693b5c560a03470e661093f26fd8866042ac0c9d048f9feabee78455a84a94",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-02-26T23:31:36Z",
+  "github_actions": {
+    "run_url": "https://github.com/ElvLandau117/GreenAgentFinance-Leaderboard/actions/runs/22465689862",
+    "run_logs_url": "https://api.github.com/repos/ElvLandau117/GreenAgentFinance-Leaderboard/actions/runs/22465689862/logs",
+    "ref": "refs/heads/thinkers_demo",
+    "sha": "31f97bccfc57b0e9a90ace33f54047c6e59da879",
+    "repository_url": "https://github.com/ElvLandau117/GreenAgentFinance-Leaderboard",
+    "workflow_ref": "ElvLandau117/GreenAgentFinance-Leaderboard/.github/workflows/run-scenario.yml@refs/heads/thinkers_demo",
+    "workflow_sha": "31f97bccfc57b0e9a90ace33f54047c6e59da879"
+  }
+}
