@@ -27,7 +27,7 @@ env = { FINANCE_MODEL = "openrouter/anthropic/claude-sonnet-4", OPENROUTER_API_K
 
 [config]
 seed = 42
-maxQuestions = 5
+maxQuestions = 1
 timeoutSeconds = 120
 participantRole = "gpt-4o"  # Primary participant for winner determination
 allowNetwork = true  # Required for OpenRouter API calls
